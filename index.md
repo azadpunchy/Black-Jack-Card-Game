@@ -13,7 +13,8 @@
     <p id = "text-area" >Welcome to Blackjack!</p><h1 id="win-message"></h1>
     <button id="new-game-button" >New Game!</button>
     <button id = "hit-button">Hit!</button>
-    <button id = "stay-button">Stay</button>
+    <button id = "stay-button">Stay</button><br />
+    <h3> to get help refresh page </h3>
     
     <script src="./script.js"></script>
   </body>
