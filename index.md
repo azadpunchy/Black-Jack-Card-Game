@@ -8,7 +8,7 @@
 <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <h1 id = "title" style="color: rgb(32, 107, 219);">Black Jack</h1>
-    <h4>By Manan Bari</h4>
+    <h4 style="color: rgb(47, 180, 87);">By Manan Bari</h4>
     
     <p id = "text-area" >Welcome to Blackjack!</p><h1 id="win-message"></h1>
     <button id="new-game-button" >New Game!</button>
