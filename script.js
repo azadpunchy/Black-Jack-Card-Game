@@ -187,9 +187,9 @@ let checkForEndOfGame = () => {
 // show status function
 function showStatus() {
   if (!gameStarted) {
-    textarea.innerText = 'Welcome to Black jack! ';
+    textarea.innerText = 'Welcome to Black jack! \n How to play \n lets try to make your score less then or equal to 21 \n if your score is less then computer score and also less then 21 click on hit button \n if you think you can win wihout hit then just hit stay button \n Enjoy';
     // winMessage.innerText = '';
-    return;
+    return; 
   }
 
   // initilize dealer and player card
@@ -219,7 +219,7 @@ if (gameOver) {
     winMessage.innerText += "YOU WINS!";
   } 
   else {
-    winMessage.innerText += "DEALER WINS!";
+    winMessage.innerText += "Computer WINS!";
   }
   newGameButton.style.display = 'inline';
   hitButton.style.display = 'none';
